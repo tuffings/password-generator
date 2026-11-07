@@ -12,5 +12,5 @@ if generate_password == "yes":
     password = generate_secure_password(length)
     print("your password is:", password)
 elif generate_password == "no":
-    password_own = input("enter your password: ").lower().strip()
+    password_own = input("enter your password: ")
     print(f"your password is: {password_own}")
